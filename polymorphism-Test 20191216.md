@@ -22,8 +22,13 @@ public class PolyTest {
 	}
 	static void printObjectInfo(Object o) {//java.lang은 자동으로 import된다. 
 //	static void printObjectInfo(String o) {//이것으로 하면 String으로 받는것은 오류가 난다.
+	if(o instanceof String) {
+		System.out.println("문자열 객체 전달됨: "+o.getClass().getName()+"  -"+((String) o).length());
+	}else {
 	System.out.println("전달된 객체의 클래스명: "+o.getClass().getName());
 	}
+	}
 }
+
 ```
 
