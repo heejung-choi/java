@@ -135,4 +135,3 @@ public class DrawableTest {
 -  인터페이스를 구현하는 것은 클래스를 상속받는 것과 같다.
 
 - 다만, ‘extends’ 대신 ‘implements’를 사용한다.
-
