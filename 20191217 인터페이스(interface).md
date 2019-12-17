@@ -102,14 +102,37 @@ public class DrawableTest {
 
 
 
-JDK 1.0  JDK 1.1
+> JDK 1.0  JDK 1.1
+>
+> 8개 		23개
 
-8개 		23개
+
+
+- vjava.nnn - 기본 api
+  - java.lang, java.util, java.io, java.net, java.sql
+
+- javax.nnn -확장 api
+  - javax.sql, javax.nio
+
+---
+
+-> 자바 언어에서만 지원하는 API
+
+- org.nnn-
+
+---
+
+-> 자바에서만 지원하지 않고 다른 프로그래밍 언어에서도 지원되는 API로 어떤 표준화 위원회나 조직에서 정한 API를 자바에서도 지원하기 위해 만든 API
 
 
 
-java.nnn - 기본 api
+- 인터페이스는
 
-javax.nnn -확장 api
+- " public static final 타입" , "public abstract 메서드이름(매개변수목록)"이 자동으로 붙는다.
 
-org.nnn-
+
+
+-  인터페이스를 구현하는 것은 클래스를 상속받는 것과 같다.
+
+- 다만, ‘extends’ 대신 ‘implements’를 사용한다.
+
