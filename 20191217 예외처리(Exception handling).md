@@ -97,3 +97,11 @@ public class ExceptionTest2 {
 ```
 
 예외 클래스는 Exception라는 부모 클래스가 있다. (Exception e)로 선언해도 된다. 그러나 첫번째 catch 블럭에 Exception e을 넣으면 에러가 난다. 조상일수록 아래에 자손일수록 위에 catch 블럭을 작성해야 한다.
+
+
+
+
+- [java.lang.Exception](../../java/lang/Exception.html)
+- - [java.lang.RuntimeException](../../java/lang/RuntimeException.html)
+  - - [java.lang.IllegalArgumentException](../../java/lang/IllegalArgumentException.html)
+    - - java.lang.NumberFormatException
